@@ -1,4 +1,4 @@
-const CACHE = 'mmp2-shell-v1';
+const CACHE = 'mmp2r2-shell-v1';
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(['./', './index.html'])));
   self.skipWaiting();
